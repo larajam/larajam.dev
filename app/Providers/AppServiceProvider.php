@@ -23,6 +23,16 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        seo()
+            ->title('Larajam.dev')
+            ->description('A weekend-long hackathon for Laravel developers.')
+            ->twitterTitle('Larajam.dev')
+            ->twitterDescription('A weekend-long hackathon for Laravel developers.')
+            ->image(
+                asset('img/og-image.png')
+            )
+            ->twitterImage(
+                asset('img/og-image.png')
+            );
     }
 }

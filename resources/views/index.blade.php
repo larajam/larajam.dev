@@ -12,6 +12,7 @@
         content="width=device-width, initial-scale=1.0"
     >
     <link rel="shortcut icon" href="{{ asset('favicon.svg') }}" type="image/x-icon">
+    <x-seo::meta />
     <link
         rel="preconnect"
         href="https://fonts.googleapis.com"
