@@ -13,6 +13,7 @@
         "@tailwindcss/forms": "^0.2.1",
         "alpinejs": "^3.0",
         "autoprefixer": "^10.1.0",
+        "chokidar": "^3.5.2",
         "laravel-mix": "^6.0.6",
         "postcss": "^8.2.1",
         "postcss-import": "^12.0.1",
