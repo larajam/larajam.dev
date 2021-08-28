@@ -180,12 +180,12 @@
                             Hosted by
                             <a
                                 class="text-red-600 underline"
-                                href="#"
+                                href="https://twitter.com/ryangjchandler"
                             >Ryan</a>
                             & designed by
                             <a
                                 class="text-red-600 underline"
-                                href="#"
+                                href="https://twitter.com/larsklopstra"
                             >Lars</a>
                         </p>
 
