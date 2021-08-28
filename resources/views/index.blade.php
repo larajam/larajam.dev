@@ -191,7 +191,7 @@
 
                         <a
                             class="flex items-center mt-12 space-x-2"
-                            href="#"
+                            href="https://laravel.com"
                         >
                             <span class="text-sm text-gray-500">Proudly powered by</span> <svg
                                 class="h-6 text-red-600"
