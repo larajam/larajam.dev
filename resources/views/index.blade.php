@@ -158,17 +158,20 @@
 
                         <form
                             class="w-full p-6 bg-red-50"
-                            action=""
+                            action="https://mowl.larajam.dev/subscribe/94437b4f-0a14-4150-a20f-22a914d7c66c"
+                            method="POST"
                         >
                             <div class="flex flex-col w-full gap-6 md:items-center md:flex-row">
                                 <input
                                     class="w-full h-12 px-3 placeholder-gray-600 bg-white"
                                     placeholder="Email address"
-                                    type="text"
+                                    type="email"
+                                    name="email"
                                 />
 
-                                <button class="flex-shrink-0 h-12 px-6 font-bold text-white bg-red-600">Join
-                                    list</button>
+                                <button class="flex-shrink-0 h-12 px-6 font-bold text-white bg-red-600">
+                                    Join list
+                                </button>
                             </div>
 
                             <p class="mt-3 text-sm text-center">Join the mailing list to receive updates about prizes,
