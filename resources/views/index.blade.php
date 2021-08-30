@@ -38,7 +38,11 @@
 </head>
 
 <body class="font-sans antialiased">
-    <div class="flex justify-end w-full px-4 pt-12 mx-auto bg-gray-100 max-w-screen-2xl sm:px-8">
+    <div class="flex justify-end w-full px-4 pt-12 mx-auto space-x-4 bg-gray-100 sm:space-x-8 max-w-screen-2xl sm:px-8">
+        <a href="mailto:info@larajam.dev" title="Email" class="text-gray-400 hover:text-gray-800 focus:text-gray-800">
+            <x-entypo-email class="w-6 h-6 md:w-8 md:h-8" />
+        </a>
+
         <a href="https://discord.gg/M94HErWE5v" target="_blank" title="Join Discord" class="text-gray-400 hover:text-gray-800 focus:text-gray-800">
             <x-bi-discord class="w-6 h-6 md:w-8 md:h-8" />
         </a>

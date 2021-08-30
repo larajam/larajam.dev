@@ -17,6 +17,7 @@
         "laravel/octane": "^1.0",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
+        "owenvoke/blade-entypo": "^1.5",
         "pestphp/pest": "^1.16",
         "pestphp/pest-plugin-laravel": "^1.1",
         "spiral/roadrunner": "^2.0"
