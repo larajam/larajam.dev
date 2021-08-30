@@ -38,23 +38,21 @@
 </head>
 
 <body class="font-sans antialiased">
-    <div class="flex justify-end w-full pt-12 bg-gray-100">
-        <div class="px-4 mx-auto space-x-4 max-w-screen-2xl sm:px-8 sm:space-x-8">
-            <a href="mailto:info@larajam.dev" title="Email" class="text-gray-400 hover:text-gray-800 focus:text-gray-800">
-                <x-entypo-email class="w-6 h-6 md:w-8 md:h-8" />
-            </a>
-            <a href="https://discord.gg/M94HErWE5v" target="_blank" title="Join Discord" class="text-gray-400 hover:text-gray-800 focus:text-gray-800">
-                <x-bi-discord class="w-6 h-6 md:w-8 md:h-8" />
-            </a>
-        </div>
-    </div>
-
     <div class="min-h-screen pt-12 pb-24 overflow-x-hidden font-sans antialiased text-gray-800 bg-gray-100">
         <div class="w-full px-4 mx-auto max-w-screen-2xl sm:px-8">
-            <div class="flex items-center space-x-2 text-red-600">
+            <div class="flex items-center justify-between space-x-2 text-red-600">
                 <div class="w-4 h-4 bg-current rounded-tr-full"></div>
 
                 <p class="text-xl font-bold">Larajam</p>
+
+                <div class="flex justify-end w-full px-4 mx-auto space-x-4 max-w-screen-2xl sm:px-8 sm:space-x-8">
+                    <a href="mailto:info@larajam.dev" title="Email" class="text-gray-400 hover:text-gray-800 focus:text-gray-800">
+                        <x-entypo-email class="w-6 h-6 md:w-8 md:h-8" />
+                    </a>
+                    <a href="https://discord.gg/M94HErWE5v" target="_blank" title="Join Discord" class="text-gray-400 hover:text-gray-800 focus:text-gray-800">
+                        <x-bi-discord class="w-6 h-6 md:w-8 md:h-8" />
+                    </a>
+                </div>
             </div>
 
             <section class="grid grid-cols-5 mt-12 lg:grid-cols-6">
