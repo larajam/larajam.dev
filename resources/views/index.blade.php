@@ -38,7 +38,7 @@
 </head>
 
 <body class="font-sans antialiased">
-    <div class="min-h-screen pt-12 pb-24 overflow-x-hidden font-sans antialiased text-gray-800 bg-gray-100">
+    <div class="min-h-screen py-24 overflow-x-hidden font-sans antialiased text-gray-800 bg-gray-100">
         <div class="w-full px-4 mx-auto max-w-screen-2xl sm:px-8">
             <div class="flex items-center justify-between space-x-2 text-red-600">
                 <div class="w-4 h-4 bg-current rounded-tr-full"></div>
