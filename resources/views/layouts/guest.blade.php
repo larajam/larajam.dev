@@ -16,9 +16,17 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body>
-        <div class="font-sans text-gray-900 antialiased">
-            {{ $slot }}
+    <body class="min-h-screen">
+        <div class="relative flex min-h-screen overflow-hidden bg-gradient-to-b from-red-50 to-red-100">
+            <div class="z-10 flex items-center w-full max-w-lg py-8 bg-white shadow md:py-16">
+                <div class="w-full max-w-md px-4 mx-auto sm:px-6 md:px-8">
+                    {{ $slot }}
+                </div>
+            </div>
+
+            <div class="flex items-center justify-center flex-1">
+                <x-logo size="lg" />
+            </div>
         </div>
     </body>
 </html>
