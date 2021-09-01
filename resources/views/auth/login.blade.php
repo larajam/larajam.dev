@@ -6,10 +6,9 @@
     <p class="mt-1 text-base font-medium text-gray-500">
         Or
         <a
-            class="text-blue-600 transition hover:text-blue-500 focus:outline-none focus:underline"
-            href="#"
-        >register</a>
-        for free.
+            class="text-red-600 transition hover:text-red-500 focus:outline-none focus:underline"
+            href="{{ route('register') }}"
+        >create an account</a>.
     </p>
 
     <form
@@ -23,7 +22,7 @@
             >Email address</label>
 
             <input
-                class="block w-full h-10 transition duration-75 border-gray-300 rounded-lg shadow-sm focus:ring-1 focus:ring-inset focus:ring-blue-600 focus:border-blue-600"
+                class="block w-full h-10 transition duration-75 border-gray-300 rounded-lg shadow-sm focus:ring-1 focus:ring-inset focus:ring-red-600 focus:border-red-600"
                 id="email"
                 type="email"
             >
@@ -36,14 +35,14 @@
             >Password</label>
 
             <input
-                class="block w-full h-10 transition duration-75 border-gray-300 rounded-lg shadow-sm focus:ring-1 focus:ring-inset focus:ring-blue-600 focus:border-blue-600"
+                class="block w-full h-10 transition duration-75 border-gray-300 rounded-lg shadow-sm focus:ring-1 focus:ring-inset focus:ring-red-600 focus:border-red-600"
                 id="password"
                 type="password"
             >
         </div>
 
         <button
-            class="flex items-center justify-center w-full h-8 px-3 text-sm font-semibold tracking-tight text-white transition bg-blue-600 rounded-lg shadow hover:bg-blue-500 focus:bg-blue-700 focus:outline-none focus:ring-offset-2 focus:ring-offset-blue-700 focus:ring-2 focus:ring-white focus:ring-inset"
+            class="flex items-center justify-center w-full h-8 px-3 text-sm font-semibold tracking-tight text-white transition bg-red-600 rounded-lg shadow hover:bg-red-500 focus:bg-red-700 focus:outline-none focus:ring-offset-2 focus:ring-offset-red-700 focus:ring-2 focus:ring-white focus:ring-inset"
             type="button"
         >Continue</button>
     </form>
@@ -52,8 +51,8 @@
 
     <p class="mt-3 text-sm font-medium text-center">
         <a
-            class="text-blue-600 transition hover:text-blue-500 focus:outline-none focus:underline"
-            href="#"
+            class="text-red-600 transition hover:text-red-500 focus:outline-none focus:underline"
+            href="{{ route('password.request') }}"
         >Forgot password?</a>
     </p>
 </x-guest-layout>

@@ -1,36 +1,40 @@
 <x-guest-layout>
-    <x-auth-card>
-        <x-slot name="logo">
-            <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-            </a>
-        </x-slot>
+    <h1 class="text-xl font-semibold tracking-tight md:text-2xl">
+        Reset your password
+    </h1>
 
-        <div class="mb-4 text-sm text-gray-600">
-            {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+    <form
+        class="mt-8 space-y-6 md:mt-12"
+        action="{{ route('password.email') }}"
+        method="POST"
+    >
+        <div class="space-y-2">
+            <label
+                class="inline-block text-sm font-medium text-gray-700"
+                for="email"
+            >Email address</label>
+
+            <input
+                class="block w-full h-10 transition duration-75 border-gray-300 rounded-lg shadow-sm focus:ring-1 focus:ring-inset focus:ring-red-600 focus:border-red-600"
+                id="email"
+                name="email"
+                type="email"
+            >
         </div>
 
-        <!-- Session Status -->
-        <x-auth-session-status class="mb-4" :status="session('status')" />
+        <button
+            class="flex items-center justify-center w-full h-8 px-3 text-sm font-semibold tracking-tight text-white transition bg-red-600 rounded-lg shadow hover:bg-red-500 focus:bg-red-700 focus:outline-none focus:ring-offset-2 focus:ring-offset-red-700 focus:ring-2 focus:ring-white focus:ring-inset"
+        >Continue</button>
 
-        <!-- Validation Errors -->
-        <x-auth-validation-errors class="mb-4" :errors="$errors" />
+        @csrf
+    </form>
 
-        <form method="POST" action="{{ route('password.email') }}">
-            @csrf
+    <div class="w-4 mx-auto mt-4 border-t border-gray-300"></div>
 
-            <!-- Email Address -->
-            <div>
-                <x-label for="email" :value="__('Email')" />
-
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
-            </div>
-
-            <div class="flex items-center justify-end mt-4">
-                <x-button>
-                    {{ __('Email Password Reset Link') }}
-                </x-button>
-            </div>
-        </form>
-    </x-auth-card>
+    <p class="mt-3 text-sm font-medium text-center">
+        <a
+            class="text-red-600 transition hover:text-red-500 focus:outline-none focus:underline"
+            href="{{ route('login') }}"
+        >Remembered your password?</a>
+    </p>
 </x-guest-layout>
