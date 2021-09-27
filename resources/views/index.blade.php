@@ -169,6 +169,39 @@
 
                         <div class="h-12 my-6 border-l-2 border-gray-200 border-dashed rounded-full"></div>
 
+                        <div class="flex items-baseline w-full space-x-6">
+                            <div
+                                class="flex items-center justify-center flex-shrink-0 w-10 h-10 bg-red-100 rounded-full md:w-14 md:h-14">
+                                <p class="text-2xl font-bold text-red-900 md:text-4xl">5</p>
+                            </div>
+
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-3xl">Win prizes</h3>
+
+                                <p class="mt-2 text-xl text-gray-500">After the projects have been ranked,
+                                    we'll pick a handful of winners who will receive prizes kindly provided by
+                                    members of the community.</p>
+
+                                <div class="flex items-center space-x-4 mt-4">
+                                    <a href="https://www.jetbrains.com/" target="_blank">
+                                        <img src="{{ asset('img/jetbrains.png') }}" alt="Jetbrains" class="w-20">
+                                    </a>
+
+                                    <a href="https://myray.app/" target="_blank">
+                                        <img src="{{ asset('img/ray.svg') }}" alt="Ray - Spatie" class="w-20">
+                                    </a>
+
+                                    <a href="https://www.git-tower.com/mac" target="_blank">
+                                        <img src="{{ asset('img/git-tower.svg') }}" alt="Git Tower" class="w-20">
+                                    </a>
+
+                                    <div class="text-sm text-gray-500 font-medium">and many more...</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="h-12 my-6 border-l-2 border-gray-200 border-dashed rounded-full"></div>
+
                         <form
                             class="w-full p-6 bg-red-50"
                             action="https://mowl.larajam.dev/subscribe/94437b4f-0a14-4150-a20f-22a914d7c66c"
