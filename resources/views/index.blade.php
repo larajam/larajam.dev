@@ -55,6 +55,13 @@
                     <a href="https://discord.gg/M94HErWE5v" target="_blank" title="Join the Discord Server" class="text-gray-400 hover:text-gray-800 focus:text-gray-800">
                         <x-bi-discord class="w-6 h-6 md:w-8 md:h-8" />
                     </a>
+
+                    <a
+                        class="inline-flex items-center justify-center px-4 font-semibold tracking-tight text-white transition bg-red-600 rounded-lg shadow h-9 hover:bg-red-500 focus:bg-red-700 focus:outline-none focus:ring-offset-2 focus:ring-offset-red-700 focus:ring-2 focus:ring-white focus:ring-inset"
+                        href="https://app.larajam.dev/auth/register"
+                        target="_blank">
+                            Register now!
+                    </a>
                 </div>
             </div>
 
