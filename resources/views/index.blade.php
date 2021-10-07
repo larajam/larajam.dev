@@ -211,8 +211,10 @@
 
                         <form
                             class="w-full p-6 bg-red-50"
-                            action="https://mowl.larajam.dev/subscribe/94437b4f-0a14-4150-a20f-22a914d7c66c"
+                            action="https://buttondown.email/api/emails/embed-subscribe/larajam"
                             method="POST"
+                            target="popupwindow"
+                            onsubmit="window.open('https://buttondown.email/larajam', 'popupwindow')"
                         >
                             <div class="flex flex-col w-full gap-6 md:items-center md:flex-row">
                                 <input
@@ -220,6 +222,7 @@
                                     placeholder="Email address"
                                     type="email"
                                     name="email"
+                                    id="bd-email"
                                 />
 
                                 <button class="flex-shrink-0 h-12 px-6 font-bold text-white bg-red-600">
